@@ -1,0 +1,10 @@
+# Rendered output is large and reproducible from scenes/
+renders/
+
+# Local tool and OS files
+.DS_Store
+node_modules/
+*.log
+
+# Machine-local Claude Code settings
+.claude/settings.local.json
