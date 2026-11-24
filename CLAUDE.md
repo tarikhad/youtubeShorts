@@ -2,6 +2,10 @@
 
 Series of AI-generated YouTube Shorts. The creator does not appear on camera.
 
+## Operating mode
+
+Work autonomously under `OPERATING.md`. Read it first. Record decisions in `DECISIONS.md`, progress in `STATUS.md`, and out-of-scope findings in `NOTES.md`. Only the stop items in `OPERATING.md` need the owner's approval.
+
 ## Working rules
 
 - Work in English in code and files. Plan notes for the owner may be in German.
@@ -21,4 +25,9 @@ Series of AI-generated YouTube Shorts. The creator does not appear on camera.
 
 ## Tracker
 
-The project plan lives in a Sheets tracker (tab "Plan"). Update a row's status only after the owner confirms the work is done.
+The project plan lives in a Sheets tracker (tab "Plan"). Mark a row Done when the work is finished and verified. Rows that need the owner's action (account creation, uploads, payments) stay open until the owner reports them done.
+
+## Tooling
+
+- Renderer: `tools/render_episode01.py` (Python + Pillow + numpy, frames piped to ffmpeg). Manim and Remotion were not installable in the build environment; see `DECISIONS.md`.
+- Render: `python3 tools/render_episode01.py` writes `renders/episode-01-water-bottle.mp4`.
