@@ -38,6 +38,4 @@ Row numbers match the tracker (Sheets, tab "Plan").
 - Needed from you: review `renders/episode-01-water-bottle.mp4`, then upload it with the metadata from the script file. Add an Audio Library track, set AI use to "No", and post the sources as a pinned comment.
 - Recommendation: change "many water plants" to "some water plants" if you want zero risk on the weakest claim.
 
-**C. Push to GitHub.** The repo `tarikhad/youtubeShorts` is **public**, so pushing would publish the scripts, operating rules, and decisions log.
-- Options: (1) make the repo private in GitHub Settings, then tell me to push (recommended); (2) push to the public repo as-is; (3) keep everything local.
-- Nothing here is sensitive, but your operating rules are in OPERATING.md, and a public repo makes them visible.
+**C. Push to GitHub.** Approved by the owner on 2026-11-24: pushed to the public repo.
